@@ -63,7 +63,7 @@ const Hero = () => {
         </div>
 
         <div
-          className="absolute xs:bottom-10 bottom-32 w-full 
+          className="z-10 absolute xs:bottom-10 bottom-32 bottom-8 w-full 
           flex justify-center items-center"
         >
           <a href="#about">
@@ -90,9 +90,9 @@ const Hero = () => {
         {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
         <div>
           <img
-            className="absolute bottom-0 ml-[50vw] 
-            lg:ml-[55vw] md:ml-[60vw] xmd:ml-[55vw] 2xl:ml-[55vw]
-            sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
+            className="absolute bottom-0 ml-[0] h-[50vh] 
+            xs:ml-[40vw] lg:ml-[55vw] md:ml-[45vw] xmd:ml-[55vw] 2xl:ml-[55vw]
+            sm:h-[50vh] md:h-[70vh] xl:h-[80vh]"
             src={warren}
             alt="warren"
           />

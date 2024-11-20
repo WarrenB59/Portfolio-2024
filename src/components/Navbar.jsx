@@ -13,7 +13,7 @@ const Navbar = () => {
       className={`${styles.paddingX} w-full flex items-center py-2 fixed 
       top-0 z-20 bg-flashWhite sm:opacity-[0.97] xxs:h-[12vh]`}
     >
-      <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
+      <div className="w-full flex justify-between items-center gap-14 max-w-7xl mx-auto">
         <Link
           to="/"
           className="flex items-center gap-2"
@@ -43,7 +43,7 @@ const Navbar = () => {
             className="sm:w-[90px] sm:h-[90px] w-[85px] h-[85px] -ml-[0.6rem] object-contain"
           /> */}
         </Link>
-        <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">
+        <ul className="list-none hidden sm:flex flex-row items-center gap-14 mt-2">
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -77,7 +77,7 @@ const Navbar = () => {
               </div>
               <ul
                 className="list-none flex flex-col -gap-[1rem] 
-                items-start justify-end mt-[10rem] -ml-[35px]"
+                items-start justify-end mt-[10rem]"
               >
                 {navLinks.map((nav) => (
                   <li
@@ -85,7 +85,7 @@ const Navbar = () => {
                     key={nav.id}
                     className={`${
                       active === nav.title ? "text-french" : "text-eerieBlack"
-                    } text-[88px] font-bold font-arenq 
+                    } font-bold font-arenq 
                       uppercase tracking-[1px] cursor-pointer`}
                     onClick={() => {
                       setToggle(!toggle);

@@ -51,20 +51,11 @@
   width: 70%;
 }
 
-#about {
-  margin-left: -24px;
-  /* font-size: 100px; */
-}
-
-#projects {
-  margin-left: -2px;
-  font-size: 100px;
-}
-
+#about,
+#projects,
 #contact {
-  margin-left: -20px;
-  font-size: 95px;
-  letter-spacing: -2px;
+  font-size: 60px;
+  margin-bottom: 24px;
 }
 
 .hero-heading {

@@ -127,14 +127,14 @@ const experiences = [
     company_name: "gOtaf",
     icon: gotaf,
     iconBg: "#ffffff",
-    date: "Juillet 2022 - Décembre 2022",
+    date: "Septembre 2021 - Février 2022",
   },
   {
     title: "Développeur Full-Stack",
     company_name: "Capyweb",
     icon: capyweb,
     iconBg: "#ffffff",
-    date: "Décembre 2022 - Décembre 2023",
+    date: "Mars 2022 - Janvier 2023",
   },
   {
     title: "Ingénieur Consultant",

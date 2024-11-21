@@ -111,7 +111,7 @@ const Experience = () => {
               ease-in-out"
               onClick={() =>
                 window.open(
-                  "src/assets/personal/CVDevWarren17102024.pdf",
+                  "https://drive.google.com/file/d/1JSZGsUXTQ0wWBSvSGG_cB4G99he-QO01/view?usp=drive_link",
                   "_blank",
                   "noopener,noreferrer"
                 )

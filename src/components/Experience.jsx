@@ -111,7 +111,7 @@ const Experience = () => {
               ease-in-out"
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1JSZGsUXTQ0wWBSvSGG_cB4G99he-QO01/view?usp=drive_link",
+                  "https://drive.google.com/file/d/1ysk5luzB0gqXvOvH5nCxlSaCMZUfX1IZ/view?usp=drive_link",
                   "_blank",
                   "noopener,noreferrer"
                 )
